@@ -122,20 +122,4 @@
                 </a>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include_once('templates/footer.php') ?>
