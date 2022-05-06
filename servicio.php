@@ -3,7 +3,7 @@
 </div>
 <div class="hero">
     <div class="container">
-        <h2 class="hero__title">Disfruta de nuestros Servicios</h2>
+        <h1 class="hero__title">Disfruta de nuestros Servicios</h1>
         <p class="hero__text">En GastroHacienda nos esforzamos por brindar la mejor calidad en nuestros productos</p>
     </div>
 </div>
@@ -11,6 +11,7 @@
 <div class="contenido">
         <h2>SERVICIOS</h2>
         <div class="container__servicio">
+            
             <div class="container__servicio-img">
                 <img src="images/comida.png" alt="imagen servicio 1">
             </div>
@@ -31,6 +32,7 @@
             </div>
         </div>
         <div class="container__servicio2 ">
+               
             <div class="container__servicio-img">
                 <img src="images/cafe.png" alt="imagen servicio 2">
             </div>
@@ -51,6 +53,7 @@
             </div>
         </div>
         <div class="container__servicio">
+             
             <div class="container__servicio-img">
                 <img src="images/banquete.png" alt="imagen servicio 1">
             </div>
@@ -70,56 +73,33 @@
                     iure tempora, esse est? Nisi, adipisci.</p>
             </div>
         </div>
+</div>
+
+<div class="cart">    
+    <div class="cart__cont">        
+        <img class="cart--img" src="images/h1.png" alt="">
+        <h3>Post title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam est itaque quis
+              fugit impedit debitis quaerat molestiae error molestias ipsum corporis aspernatur veniam ea, ex voluptates quos
+              obcaecati facere.
+        </p>
     </div>
-
-    <!-- grid item, containing a hipocaloricos -->
-        <div class="hipo"><h2>HIPOCALORICOS</h2></div>
-        <div class="service__content">
-        
-            <div class="service__item">
-                <a href="" class="card">
-                    <div class="thumb"></div>
-                    <article>
-                        <img class="imagenh" src="images/h1.png" alt="">
-                        <img alt="">
-                        <h1>Post title</h1>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam est itaque quis
-                            fugit
-                            impedit debitis
-                            quaerat molestiae error molestias ipsum corporis aspernatur veniam ea, ex voluptates quos
-                            obcaecati facere.</span>
-                    </article>
-                </a>
-            </div>
-
-            <div class="service__item">
-                <a href="" class="card">
-                    <div class="thumb"></div>
-                    <article>
-                        <img class="imagenh" src="images/h2.png" alt="">
-                        <h1>Post title</h1>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam est itaque quis
-                            fugit
-                            impedit debitis
-                            quaerat molestiae error molestias ipsum corporis aspernatur veniam ea, ex voluptates quos
-                            obcaecati facere.</span>
-                    </article>
-                </a>
-            </div>
-
-            <div class="service__item">
-                <a href="" class="card">
-                    <div class="thumb"></div>
-                    <article>
-                        <img class="imagenh" src="images/h3.png" alt="">
-                        <h1>Post title</h1>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam est itaque quis
-                            fugit
-                            impedit debitis
-                            quaerat molestiae error molestias ipsum corporis aspernatur veniam ea, ex voluptates quos
-                            obcaecati facere.</span>
-                    </article>
-                </a>
-            </div>
-        </div>
+    <div class="cart__cont">        
+        <img class="cart--img" src="images/h2.png" alt="">
+        <h3>Post title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam est itaque quis
+              fugit impedit debitis quaerat molestiae error molestias ipsum corporis aspernatur veniam ea, ex voluptates quos
+              obcaecati facere.
+        </p>
+    </div>
+    <div class="cart__cont">        
+        <img class="cart--img" src="images/h3.png" alt="">
+        <h3>Post title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam est itaque quis
+              fugit impedit debitis quaerat molestiae error molestias ipsum corporis aspernatur veniam ea, ex voluptates quos
+              obcaecati facere.
+        </p>
+    </div>
+</div>
+    
 <?php include_once('templates/footer.php') ?>
